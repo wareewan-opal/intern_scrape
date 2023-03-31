@@ -17,7 +17,7 @@ games_name = driver.find_elements(By.CLASS_NAME, 'games-list-item-title')
 descriptions_game = driver.find_elements(By.CLASS_NAME,'games-list-item-description')
 prices_game = driver.find_elements(By.CLASS_NAME,'price-tag')
 
-#Gวนลูปเพื่อเอาค่าอื่นๆใน class นี้ออกมาด้วย
+#วนลูปเพื่อเอาค่าอื่นๆใน class นี้ออกมาด้วย
 Games_names=[name.text for name in games_name]
 Descriptions_game=[description.text for description in descriptions_game]
 Prices_game=[price.text for price in prices_game]
